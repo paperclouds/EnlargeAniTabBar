@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAB911E320ABDF2D00A20ADF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB911E220ABDF2D00A20ADF /* AppDelegate.m */; };
+		AAB911E620ABDF2D00A20ADF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB911E520ABDF2D00A20ADF /* ViewController.m */; };
+		AAB911E920ABDF2D00A20ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB911E720ABDF2D00A20ADF /* Main.storyboard */; };
+		AAB911EB20ABDF2E00A20ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB911EA20ABDF2E00A20ADF /* Assets.xcassets */; };
+		AAB911EE20ABDF2E00A20ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB911EC20ABDF2E00A20ADF /* LaunchScreen.storyboard */; };
+		AAB911F120ABDF2E00A20ADF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB911F020ABDF2E00A20ADF /* main.m */; };
+		AAB911F920ABE46C00A20ADF /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB911F820ABE46C00A20ADF /* TabBarController.m */; };
+		AAB9120220ABFB6400A20ADF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9120120ABFB6400A20ADF /* BaseViewController.m */; };
+		AAB9120520ABFB9000A20ADF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9120420ABFB9000A20ADF /* HomeViewController.m */; };
+		AAB9120820ABFBC300A20ADF /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9120720ABFBC300A20ADF /* CategoryViewController.m */; };
+		AAB9120B20ABFBDF00A20ADF /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9120A20ABFBDF00A20ADF /* OrderViewController.m */; };
+		AAB9120E20ABFBF300A20ADF /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9120D20ABFBF300A20ADF /* MyViewController.m */; };
+		AAB9121A20ABFF1900A20ADF /* iconfont.js in Resources */ = {isa = PBXBuildFile; fileRef = AAB9121020ABFF1800A20ADF /* iconfont.js */; };
+		AAB9121B20ABFF1900A20ADF /* demo.css in Resources */ = {isa = PBXBuildFile; fileRef = AAB9121120ABFF1800A20ADF /* demo.css */; };
+		AAB9121C20ABFF1900A20ADF /* iconfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = AAB9121220ABFF1800A20ADF /* iconfont.woff */; };
+		AAB9121D20ABFF1900A20ADF /* iconfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = AAB9121320ABFF1800A20ADF /* iconfont.eot */; };
+		AAB9121E20ABFF1900A20ADF /* demo_fontclass.html in Resources */ = {isa = PBXBuildFile; fileRef = AAB9121420ABFF1900A20ADF /* demo_fontclass.html */; };
+		AAB9121F20ABFF1900A20ADF /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAB9121520ABFF1900A20ADF /* iconfont.ttf */; };
+		AAB9122020ABFF1900A20ADF /* demo_unicode.html in Resources */ = {isa = PBXBuildFile; fileRef = AAB9121620ABFF1900A20ADF /* demo_unicode.html */; };
+		AAB9122120ABFF1900A20ADF /* iconfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = AAB9121720ABFF1900A20ADF /* iconfont.svg */; };
+		AAB9122220ABFF1900A20ADF /* iconfont.css in Resources */ = {isa = PBXBuildFile; fileRef = AAB9121820ABFF1900A20ADF /* iconfont.css */; };
+		AAB9122320ABFF1900A20ADF /* demo_symbol.html in Resources */ = {isa = PBXBuildFile; fileRef = AAB9121920ABFF1900A20ADF /* demo_symbol.html */; };
+		AAB9122620AC06B500A20ADF /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9122520AC06B500A20ADF /* BaseNavigationController.m */; };
+		AAB9122920AC15BB00A20ADF /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9122820AC15BA00A20ADF /* UIImage+TBCityIconFont.m */; };
+		AAB9122E20AC165D00A20ADF /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9122B20AC165D00A20ADF /* TBCityIconInfo.m */; };
+		AAB9122F20AC165D00A20ADF /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9122C20AC165D00A20ADF /* TBCityIconFont.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAB911DE20ABDF2D00A20ADF /* EnlargeAniTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnlargeAniTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB911E120ABDF2D00A20ADF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAB911E220ABDF2D00A20ADF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAB911E420ABDF2D00A20ADF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAB911E520ABDF2D00A20ADF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAB911E820ABDF2D00A20ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAB911EA20ABDF2E00A20ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAB911ED20ABDF2E00A20ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAB911EF20ABDF2E00A20ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB911F020ABDF2E00A20ADF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAB911F720ABE46C00A20ADF /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		AAB911F820ABE46C00A20ADF /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		AAB9120020ABFB6400A20ADF /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		AAB9120120ABFB6400A20ADF /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		AAB9120320ABFB9000A20ADF /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		AAB9120420ABFB9000A20ADF /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		AAB9120620ABFBC300A20ADF /* CategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		AAB9120720ABFBC300A20ADF /* CategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		AAB9120920ABFBDF00A20ADF /* OrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		AAB9120A20ABFBDF00A20ADF /* OrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		AAB9120C20ABFBF300A20ADF /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		AAB9120D20ABFBF300A20ADF /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		AAB9121020ABFF1800A20ADF /* iconfont.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = iconfont.js; sourceTree = "<group>"; };
+		AAB9121120ABFF1800A20ADF /* demo.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = demo.css; sourceTree = "<group>"; };
+		AAB9121220ABFF1800A20ADF /* iconfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.woff; sourceTree = "<group>"; };
+		AAB9121320ABFF1800A20ADF /* iconfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.eot; sourceTree = "<group>"; };
+		AAB9121420ABFF1900A20ADF /* demo_fontclass.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo_fontclass.html; sourceTree = "<group>"; };
+		AAB9121520ABFF1900A20ADF /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		AAB9121620ABFF1900A20ADF /* demo_unicode.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo_unicode.html; sourceTree = "<group>"; };
+		AAB9121720ABFF1900A20ADF /* iconfont.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = iconfont.svg; sourceTree = "<group>"; };
+		AAB9121820ABFF1900A20ADF /* iconfont.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = iconfont.css; sourceTree = "<group>"; };
+		AAB9121920ABFF1900A20ADF /* demo_symbol.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo_symbol.html; sourceTree = "<group>"; };
+		AAB9122420AC06B500A20ADF /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		AAB9122520AC06B500A20ADF /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		AAB9122720AC15BA00A20ADF /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
+		AAB9122820AC15BA00A20ADF /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
+		AAB9122A20AC165D00A20ADF /* TBCityIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconInfo.h; sourceTree = "<group>"; };
+		AAB9122B20AC165D00A20ADF /* TBCityIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconInfo.m; sourceTree = "<group>"; };
+		AAB9122C20AC165D00A20ADF /* TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconFont.m; sourceTree = "<group>"; };
+		AAB9122D20AC165D00A20ADF /* TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconFont.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAB911DB20ABDF2D00A20ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAB911D520ABDF2D00A20ADF = {
+			isa = PBXGroup;
+			children = (
+				AAB911E020ABDF2D00A20ADF /* EnlargeAniTabBar */,
+				AAB911DF20ABDF2D00A20ADF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAB911DF20ABDF2D00A20ADF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB911DE20ABDF2D00A20ADF /* EnlargeAniTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAB911E020ABDF2D00A20ADF /* EnlargeAniTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				AAB9122D20AC165D00A20ADF /* TBCityIconFont.h */,
+				AAB9122C20AC165D00A20ADF /* TBCityIconFont.m */,
+				AAB9122A20AC165D00A20ADF /* TBCityIconInfo.h */,
+				AAB9122B20AC165D00A20ADF /* TBCityIconInfo.m */,
+				AAB9122720AC15BA00A20ADF /* UIImage+TBCityIconFont.h */,
+				AAB9122820AC15BA00A20ADF /* UIImage+TBCityIconFont.m */,
+				AAB9120F20ABFF1800A20ADF /* font_q0klq1fwl2kb7qfr */,
+				AAB911E120ABDF2D00A20ADF /* AppDelegate.h */,
+				AAB911E220ABDF2D00A20ADF /* AppDelegate.m */,
+				AAB911E420ABDF2D00A20ADF /* ViewController.h */,
+				AAB911E520ABDF2D00A20ADF /* ViewController.m */,
+				AAB911F720ABE46C00A20ADF /* TabBarController.h */,
+				AAB911F820ABE46C00A20ADF /* TabBarController.m */,
+				AAB9122420AC06B500A20ADF /* BaseNavigationController.h */,
+				AAB9122520AC06B500A20ADF /* BaseNavigationController.m */,
+				AAB9120020ABFB6400A20ADF /* BaseViewController.h */,
+				AAB9120120ABFB6400A20ADF /* BaseViewController.m */,
+				AAB9120320ABFB9000A20ADF /* HomeViewController.h */,
+				AAB9120420ABFB9000A20ADF /* HomeViewController.m */,
+				AAB9120620ABFBC300A20ADF /* CategoryViewController.h */,
+				AAB9120720ABFBC300A20ADF /* CategoryViewController.m */,
+				AAB9120920ABFBDF00A20ADF /* OrderViewController.h */,
+				AAB9120A20ABFBDF00A20ADF /* OrderViewController.m */,
+				AAB9120C20ABFBF300A20ADF /* MyViewController.h */,
+				AAB9120D20ABFBF300A20ADF /* MyViewController.m */,
+				AAB911E720ABDF2D00A20ADF /* Main.storyboard */,
+				AAB911EA20ABDF2E00A20ADF /* Assets.xcassets */,
+				AAB911EC20ABDF2E00A20ADF /* LaunchScreen.storyboard */,
+				AAB911EF20ABDF2E00A20ADF /* Info.plist */,
+				AAB911F020ABDF2E00A20ADF /* main.m */,
+			);
+			path = EnlargeAniTabBar;
+			sourceTree = "<group>";
+		};
+		AAB9120F20ABFF1800A20ADF /* font_q0klq1fwl2kb7qfr */ = {
+			isa = PBXGroup;
+			children = (
+				AAB9121020ABFF1800A20ADF /* iconfont.js */,
+				AAB9121120ABFF1800A20ADF /* demo.css */,
+				AAB9121220ABFF1800A20ADF /* iconfont.woff */,
+				AAB9121320ABFF1800A20ADF /* iconfont.eot */,
+				AAB9121420ABFF1900A20ADF /* demo_fontclass.html */,
+				AAB9121520ABFF1900A20ADF /* iconfont.ttf */,
+				AAB9121620ABFF1900A20ADF /* demo_unicode.html */,
+				AAB9121720ABFF1900A20ADF /* iconfont.svg */,
+				AAB9121820ABFF1900A20ADF /* iconfont.css */,
+				AAB9121920ABFF1900A20ADF /* demo_symbol.html */,
+			);
+			path = font_q0klq1fwl2kb7qfr;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAB911DD20ABDF2D00A20ADF /* EnlargeAniTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB911F420ABDF2E00A20ADF /* Build configuration list for PBXNativeTarget "EnlargeAniTabBar" */;
+			buildPhases = (
+				AAB911DA20ABDF2D00A20ADF /* Sources */,
+				AAB911DB20ABDF2D00A20ADF /* Frameworks */,
+				AAB911DC20ABDF2D00A20ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnlargeAniTabBar;
+			productName = EnlargeAniTabBar;
+			productReference = AAB911DE20ABDF2D00A20ADF /* EnlargeAniTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB911D620ABDF2D00A20ADF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = hechang;
+				TargetAttributes = {
+					AAB911DD20ABDF2D00A20ADF = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = AAB911D920ABDF2D00A20ADF /* Build configuration list for PBXProject "EnlargeAniTabBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAB911D520ABDF2D00A20ADF;
+			productRefGroup = AAB911DF20ABDF2D00A20ADF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB911DD20ABDF2D00A20ADF /* EnlargeAniTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAB911DC20ABDF2D00A20ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB9121D20ABFF1900A20ADF /* iconfont.eot in Resources */,
+				AAB911EE20ABDF2E00A20ADF /* LaunchScreen.storyboard in Resources */,
+				AAB9121F20ABFF1900A20ADF /* iconfont.ttf in Resources */,
+				AAB9121B20ABFF1900A20ADF /* demo.css in Resources */,
+				AAB911EB20ABDF2E00A20ADF /* Assets.xcassets in Resources */,
+				AAB9122120ABFF1900A20ADF /* iconfont.svg in Resources */,
+				AAB9121A20ABFF1900A20ADF /* iconfont.js in Resources */,
+				AAB911E920ABDF2D00A20ADF /* Main.storyboard in Resources */,
+				AAB9121C20ABFF1900A20ADF /* iconfont.woff in Resources */,
+				AAB9121E20ABFF1900A20ADF /* demo_fontclass.html in Resources */,
+				AAB9122320ABFF1900A20ADF /* demo_symbol.html in Resources */,
+				AAB9122020ABFF1900A20ADF /* demo_unicode.html in Resources */,
+				AAB9122220ABFF1900A20ADF /* iconfont.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAB911DA20ABDF2D00A20ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB911E620ABDF2D00A20ADF /* ViewController.m in Sources */,
+				AAB9120220ABFB6400A20ADF /* BaseViewController.m in Sources */,
+				AAB911F920ABE46C00A20ADF /* TabBarController.m in Sources */,
+				AAB9120E20ABFBF300A20ADF /* MyViewController.m in Sources */,
+				AAB9122620AC06B500A20ADF /* BaseNavigationController.m in Sources */,
+				AAB9120B20ABFBDF00A20ADF /* OrderViewController.m in Sources */,
+				AAB9122F20AC165D00A20ADF /* TBCityIconFont.m in Sources */,
+				AAB911F120ABDF2E00A20ADF /* main.m in Sources */,
+				AAB9120820ABFBC300A20ADF /* CategoryViewController.m in Sources */,
+				AAB911E320ABDF2D00A20ADF /* AppDelegate.m in Sources */,
+				AAB9120520ABFB9000A20ADF /* HomeViewController.m in Sources */,
+				AAB9122920AC15BB00A20ADF /* UIImage+TBCityIconFont.m in Sources */,
+				AAB9122E20AC165D00A20ADF /* TBCityIconInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAB911E720ABDF2D00A20ADF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB911E820ABDF2D00A20ADF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAB911EC20ABDF2E00A20ADF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB911ED20ABDF2E00A20ADF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAB911F220ABDF2E00A20ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAB911F320ABDF2E00A20ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAB911F520ABDF2E00A20ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MC29DLSP7;
+				INFOPLIST_FILE = EnlargeAniTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hechang.EnlargeAniTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAB911F620ABDF2E00A20ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MC29DLSP7;
+				INFOPLIST_FILE = EnlargeAniTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hechang.EnlargeAniTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB911D920ABDF2D00A20ADF /* Build configuration list for PBXProject "EnlargeAniTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB911F220ABDF2E00A20ADF /* Debug */,
+				AAB911F320ABDF2E00A20ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB911F420ABDF2E00A20ADF /* Build configuration list for PBXNativeTarget "EnlargeAniTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB911F520ABDF2E00A20ADF /* Debug */,
+				AAB911F620ABDF2E00A20ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAB911D620ABDF2D00A20ADF /* Project object */;
+}
