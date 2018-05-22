@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA9DFB6C20B3B62E0016500A /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9DFB5620B3B62D0016500A /* TabBarController.m */; };
+		AA9DFB6D20B3B62E0016500A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9DFB5720B3B62D0016500A /* BaseViewController.m */; };
+		AA9DFB6E20B3B62E0016500A /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9DFB5820B3B62D0016500A /* BaseNavigationController.m */; };
+		AA9DFB6F20B3B62E0016500A /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9DFB5D20B3B62D0016500A /* OrderViewController.m */; };
+		AA9DFB7020B3B62E0016500A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9DFB5E20B3B62D0016500A /* HomeViewController.m */; };
+		AA9DFB7120B3B62E0016500A /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9DFB5F20B3B62D0016500A /* CategoryViewController.m */; };
+		AA9DFB7220B3B62E0016500A /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9DFB6420B3B62D0016500A /* MyViewController.m */; };
+		AA9DFB7320B3B62E0016500A /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9DFB6620B3B62D0016500A /* TBCityIconFont.m */; };
+		AA9DFB7420B3B62E0016500A /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9DFB6720B3B62D0016500A /* TBCityIconInfo.m */; };
+		AA9DFB7520B3B62E0016500A /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9DFB6820B3B62D0016500A /* UIImage+TBCityIconFont.m */; };
 		AAB911E320ABDF2D00A20ADF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB911E220ABDF2D00A20ADF /* AppDelegate.m */; };
 		AAB911E620ABDF2D00A20ADF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB911E520ABDF2D00A20ADF /* ViewController.m */; };
 		AAB911E920ABDF2D00A20ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB911E720ABDF2D00A20ADF /* Main.storyboard */; };
 		AAB911EB20ABDF2E00A20ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB911EA20ABDF2E00A20ADF /* Assets.xcassets */; };
 		AAB911EE20ABDF2E00A20ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB911EC20ABDF2E00A20ADF /* LaunchScreen.storyboard */; };
 		AAB911F120ABDF2E00A20ADF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB911F020ABDF2E00A20ADF /* main.m */; };
-		AAB911F920ABE46C00A20ADF /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB911F820ABE46C00A20ADF /* TabBarController.m */; };
-		AAB9120220ABFB6400A20ADF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9120120ABFB6400A20ADF /* BaseViewController.m */; };
-		AAB9120520ABFB9000A20ADF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9120420ABFB9000A20ADF /* HomeViewController.m */; };
-		AAB9120820ABFBC300A20ADF /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9120720ABFBC300A20ADF /* CategoryViewController.m */; };
-		AAB9120B20ABFBDF00A20ADF /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9120A20ABFBDF00A20ADF /* OrderViewController.m */; };
-		AAB9120E20ABFBF300A20ADF /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9120D20ABFBF300A20ADF /* MyViewController.m */; };
 		AAB9121A20ABFF1900A20ADF /* iconfont.js in Resources */ = {isa = PBXBuildFile; fileRef = AAB9121020ABFF1800A20ADF /* iconfont.js */; };
 		AAB9121B20ABFF1900A20ADF /* demo.css in Resources */ = {isa = PBXBuildFile; fileRef = AAB9121120ABFF1800A20ADF /* demo.css */; };
 		AAB9121C20ABFF1900A20ADF /* iconfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = AAB9121220ABFF1800A20ADF /* iconfont.woff */; };
@@ -29,13 +33,29 @@
 		AAB9122120ABFF1900A20ADF /* iconfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = AAB9121720ABFF1900A20ADF /* iconfont.svg */; };
 		AAB9122220ABFF1900A20ADF /* iconfont.css in Resources */ = {isa = PBXBuildFile; fileRef = AAB9121820ABFF1900A20ADF /* iconfont.css */; };
 		AAB9122320ABFF1900A20ADF /* demo_symbol.html in Resources */ = {isa = PBXBuildFile; fileRef = AAB9121920ABFF1900A20ADF /* demo_symbol.html */; };
-		AAB9122620AC06B500A20ADF /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9122520AC06B500A20ADF /* BaseNavigationController.m */; };
-		AAB9122920AC15BB00A20ADF /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9122820AC15BA00A20ADF /* UIImage+TBCityIconFont.m */; };
-		AAB9122E20AC165D00A20ADF /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9122B20AC165D00A20ADF /* TBCityIconInfo.m */; };
-		AAB9122F20AC165D00A20ADF /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9122C20AC165D00A20ADF /* TBCityIconFont.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA9DFB5620B3B62D0016500A /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		AA9DFB5720B3B62D0016500A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		AA9DFB5820B3B62D0016500A /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		AA9DFB5920B3B62D0016500A /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		AA9DFB5A20B3B62D0016500A /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		AA9DFB5B20B3B62D0016500A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		AA9DFB5D20B3B62D0016500A /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		AA9DFB5E20B3B62D0016500A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		AA9DFB5F20B3B62D0016500A /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		AA9DFB6020B3B62D0016500A /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		AA9DFB6120B3B62D0016500A /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		AA9DFB6220B3B62D0016500A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		AA9DFB6320B3B62D0016500A /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		AA9DFB6420B3B62D0016500A /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		AA9DFB6620B3B62D0016500A /* TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconFont.m; sourceTree = "<group>"; };
+		AA9DFB6720B3B62D0016500A /* TBCityIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconInfo.m; sourceTree = "<group>"; };
+		AA9DFB6820B3B62D0016500A /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
+		AA9DFB6920B3B62D0016500A /* TBCityIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconInfo.h; sourceTree = "<group>"; };
+		AA9DFB6A20B3B62D0016500A /* TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconFont.h; sourceTree = "<group>"; };
+		AA9DFB6B20B3B62D0016500A /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
 		AAB911DE20ABDF2D00A20ADF /* EnlargeAniTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnlargeAniTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB911E120ABDF2D00A20ADF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAB911E220ABDF2D00A20ADF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,18 +66,6 @@
 		AAB911ED20ABDF2E00A20ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAB911EF20ABDF2E00A20ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAB911F020ABDF2E00A20ADF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AAB911F720ABE46C00A20ADF /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
-		AAB911F820ABE46C00A20ADF /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
-		AAB9120020ABFB6400A20ADF /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		AAB9120120ABFB6400A20ADF /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		AAB9120320ABFB9000A20ADF /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		AAB9120420ABFB9000A20ADF /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		AAB9120620ABFBC300A20ADF /* CategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
-		AAB9120720ABFBC300A20ADF /* CategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
-		AAB9120920ABFBDF00A20ADF /* OrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
-		AAB9120A20ABFBDF00A20ADF /* OrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
-		AAB9120C20ABFBF300A20ADF /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
-		AAB9120D20ABFBF300A20ADF /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		AAB9121020ABFF1800A20ADF /* iconfont.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = iconfont.js; sourceTree = "<group>"; };
 		AAB9121120ABFF1800A20ADF /* demo.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = demo.css; sourceTree = "<group>"; };
 		AAB9121220ABFF1800A20ADF /* iconfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.woff; sourceTree = "<group>"; };
@@ -68,14 +76,6 @@
 		AAB9121720ABFF1900A20ADF /* iconfont.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = iconfont.svg; sourceTree = "<group>"; };
 		AAB9121820ABFF1900A20ADF /* iconfont.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = iconfont.css; sourceTree = "<group>"; };
 		AAB9121920ABFF1900A20ADF /* demo_symbol.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo_symbol.html; sourceTree = "<group>"; };
-		AAB9122420AC06B500A20ADF /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
-		AAB9122520AC06B500A20ADF /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
-		AAB9122720AC15BA00A20ADF /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
-		AAB9122820AC15BA00A20ADF /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
-		AAB9122A20AC165D00A20ADF /* TBCityIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconInfo.h; sourceTree = "<group>"; };
-		AAB9122B20AC165D00A20ADF /* TBCityIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconInfo.m; sourceTree = "<group>"; };
-		AAB9122C20AC165D00A20ADF /* TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconFont.m; sourceTree = "<group>"; };
-		AAB9122D20AC165D00A20ADF /* TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconFont.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +89,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA9DFB5520B3B62D0016500A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AA9DFB5920B3B62D0016500A /* TabBarController.h */,
+				AA9DFB5620B3B62D0016500A /* TabBarController.m */,
+				AA9DFB5A20B3B62D0016500A /* BaseNavigationController.h */,
+				AA9DFB5820B3B62D0016500A /* BaseNavigationController.m */,
+				AA9DFB5720B3B62D0016500A /* BaseViewController.m */,
+				AA9DFB5B20B3B62D0016500A /* BaseViewController.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		AA9DFB5C20B3B62D0016500A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA9DFB6220B3B62D0016500A /* HomeViewController.h */,
+				AA9DFB5E20B3B62D0016500A /* HomeViewController.m */,
+				AA9DFB6320B3B62D0016500A /* CategoryViewController.h */,
+				AA9DFB5F20B3B62D0016500A /* CategoryViewController.m */,
+				AA9DFB6120B3B62D0016500A /* OrderViewController.h */,
+				AA9DFB5D20B3B62D0016500A /* OrderViewController.m */,
+				AA9DFB6020B3B62D0016500A /* MyViewController.h */,
+				AA9DFB6420B3B62D0016500A /* MyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AA9DFB6520B3B62D0016500A /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				AA9DFB6620B3B62D0016500A /* TBCityIconFont.m */,
+				AA9DFB6720B3B62D0016500A /* TBCityIconInfo.m */,
+				AA9DFB6820B3B62D0016500A /* UIImage+TBCityIconFont.m */,
+				AA9DFB6920B3B62D0016500A /* TBCityIconInfo.h */,
+				AA9DFB6A20B3B62D0016500A /* TBCityIconFont.h */,
+				AA9DFB6B20B3B62D0016500A /* UIImage+TBCityIconFont.h */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
 		AAB911D520ABDF2D00A20ADF = {
 			isa = PBXGroup;
 			children = (
@@ -108,31 +149,14 @@
 		AAB911E020ABDF2D00A20ADF /* EnlargeAniTabBar */ = {
 			isa = PBXGroup;
 			children = (
-				AAB9122D20AC165D00A20ADF /* TBCityIconFont.h */,
-				AAB9122C20AC165D00A20ADF /* TBCityIconFont.m */,
-				AAB9122A20AC165D00A20ADF /* TBCityIconInfo.h */,
-				AAB9122B20AC165D00A20ADF /* TBCityIconInfo.m */,
-				AAB9122720AC15BA00A20ADF /* UIImage+TBCityIconFont.h */,
-				AAB9122820AC15BA00A20ADF /* UIImage+TBCityIconFont.m */,
+				AA9DFB5520B3B62D0016500A /* Base */,
+				AA9DFB5C20B3B62D0016500A /* Controller */,
+				AA9DFB6520B3B62D0016500A /* Third */,
 				AAB9120F20ABFF1800A20ADF /* font_q0klq1fwl2kb7qfr */,
 				AAB911E120ABDF2D00A20ADF /* AppDelegate.h */,
 				AAB911E220ABDF2D00A20ADF /* AppDelegate.m */,
 				AAB911E420ABDF2D00A20ADF /* ViewController.h */,
 				AAB911E520ABDF2D00A20ADF /* ViewController.m */,
-				AAB911F720ABE46C00A20ADF /* TabBarController.h */,
-				AAB911F820ABE46C00A20ADF /* TabBarController.m */,
-				AAB9122420AC06B500A20ADF /* BaseNavigationController.h */,
-				AAB9122520AC06B500A20ADF /* BaseNavigationController.m */,
-				AAB9120020ABFB6400A20ADF /* BaseViewController.h */,
-				AAB9120120ABFB6400A20ADF /* BaseViewController.m */,
-				AAB9120320ABFB9000A20ADF /* HomeViewController.h */,
-				AAB9120420ABFB9000A20ADF /* HomeViewController.m */,
-				AAB9120620ABFBC300A20ADF /* CategoryViewController.h */,
-				AAB9120720ABFBC300A20ADF /* CategoryViewController.m */,
-				AAB9120920ABFBDF00A20ADF /* OrderViewController.h */,
-				AAB9120A20ABFBDF00A20ADF /* OrderViewController.m */,
-				AAB9120C20ABFBF300A20ADF /* MyViewController.h */,
-				AAB9120D20ABFBF300A20ADF /* MyViewController.m */,
 				AAB911E720ABDF2D00A20ADF /* Main.storyboard */,
 				AAB911EA20ABDF2E00A20ADF /* Assets.xcassets */,
 				AAB911EC20ABDF2E00A20ADF /* LaunchScreen.storyboard */,
@@ -240,18 +264,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB911E620ABDF2D00A20ADF /* ViewController.m in Sources */,
-				AAB9120220ABFB6400A20ADF /* BaseViewController.m in Sources */,
-				AAB911F920ABE46C00A20ADF /* TabBarController.m in Sources */,
-				AAB9120E20ABFBF300A20ADF /* MyViewController.m in Sources */,
-				AAB9122620AC06B500A20ADF /* BaseNavigationController.m in Sources */,
-				AAB9120B20ABFBDF00A20ADF /* OrderViewController.m in Sources */,
-				AAB9122F20AC165D00A20ADF /* TBCityIconFont.m in Sources */,
+				AA9DFB7120B3B62E0016500A /* CategoryViewController.m in Sources */,
+				AA9DFB6D20B3B62E0016500A /* BaseViewController.m in Sources */,
+				AA9DFB7420B3B62E0016500A /* TBCityIconInfo.m in Sources */,
+				AA9DFB6F20B3B62E0016500A /* OrderViewController.m in Sources */,
+				AA9DFB7020B3B62E0016500A /* HomeViewController.m in Sources */,
+				AA9DFB6E20B3B62E0016500A /* BaseNavigationController.m in Sources */,
+				AA9DFB7320B3B62E0016500A /* TBCityIconFont.m in Sources */,
+				AA9DFB6C20B3B62E0016500A /* TabBarController.m in Sources */,
 				AAB911F120ABDF2E00A20ADF /* main.m in Sources */,
-				AAB9120820ABFBC300A20ADF /* CategoryViewController.m in Sources */,
+				AA9DFB7220B3B62E0016500A /* MyViewController.m in Sources */,
 				AAB911E320ABDF2D00A20ADF /* AppDelegate.m in Sources */,
-				AAB9120520ABFB9000A20ADF /* HomeViewController.m in Sources */,
-				AAB9122920AC15BB00A20ADF /* UIImage+TBCityIconFont.m in Sources */,
-				AAB9122E20AC165D00A20ADF /* TBCityIconInfo.m in Sources */,
+				AA9DFB7520B3B62E0016500A /* UIImage+TBCityIconFont.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
